@@ -1,0 +1,36 @@
+@import "config.scss";
+
+body{
+    background-color: $bgcolor;
+}
+
+#worker{
+    h1{
+        color:$h1color;
+    }
+
+    #rate{
+        margin-bottom: 20px;
+    }
+    input {
+        color: $inputtextcolor;
+        margin-bottom: 20px;
+        margin-left: 10px
+        ;
+        &::placeholder{
+            color: $inputtextcolor;
+        }
+    }
+    button{
+        background-color: $buttoncolor;
+        border-radius: 5px;
+        margin-left: 10px;
+
+    }
+    .result{
+        color:$resultcolor;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
